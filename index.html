@@ -2,24 +2,25 @@
 <html>
     <head>
         <title>Random messages</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./style.css">
-        <script src= "./messages.js"></script>
+        
     </head>
     <body>
-        <header>
-            <h1>
-                Have a random message
-            </h1>
+        <header class="header-container">
+            <h1 class="title">Mixed Messsages</h1>
         </header>
-        <nav>
+        <main role="main" class="container">
+            <div class="image-container">
+                <img class="image-frame" src="./images/picture-frame-cloud-clip-art-cute-frame.png" alt="cloud message frame">   
+                <p id="messagesparagraph"></p>
+            </div>
             
-        </nav>
-        <main>
-            <p id="messagesparagraph">Here is the message</p>
+            <button class="btn" id="changeQuoteButton">Click</button>
         </main>
-        <footer>
-            
-        </footer>
+        <script src= "./messages.js"></script>
     </body>
 
 </html>
